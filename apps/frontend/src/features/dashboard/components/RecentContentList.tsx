@@ -10,7 +10,7 @@ function formatTime(iso: string) {
   });
 }
 
-export function RecentContentList({ requests }: { requests: ContentRequest[] }) {
+export function RecentContentList({ requests }: { requests: (ContentRequest & { campaignName: string })[] }) {
   return (
     <ul className="divide-y divide-zinc-100 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm">
       {requests.map((request) => (
@@ -24,6 +24,9 @@ export function RecentContentList({ requests }: { requests: ContentRequest[] }) 
           <StatusBadge status={request.status} />
         </li>
       ))}
+      {requests.length === 0 && (
+        <li className="px-4 py-6 text-center text-sm text-zinc-500">No content requests yet.</li>
+      )}
     </ul>
   );
 }

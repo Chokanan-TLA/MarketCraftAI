@@ -16,16 +16,22 @@ export interface Campaign {
   description?: string;
   status: CampaignStatus;
   owner: User;
-  contentRequestCount: number;
   createdAt: string;
 }
 
 export interface ContentRequest {
   id: string;
   campaignId: string;
-  campaignName: string;
   prompt: string;
   status: ContentRequestStatus;
+  createdAt: string;
+}
+
+export interface GeneratedContent {
+  id: string;
+  contentRequestId: string;
+  version: number;
+  generatedResult: string;
   createdAt: string;
 }
 

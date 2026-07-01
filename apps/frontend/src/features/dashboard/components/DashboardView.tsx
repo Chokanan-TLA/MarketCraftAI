@@ -1,17 +1,36 @@
+"use client";
+
+import { CampaignTable } from "@/components/shared/CampaignTable";
 import { StatCard } from "@/components/shared/StatCard";
-import type { Campaign, ContentRequest, DashboardStats } from "@/types/domain";
-import { CampaignTable } from "./CampaignTable";
+import { useMockData } from "@/lib/mock/store";
 import { RecentContentList } from "./RecentContentList";
 
-export function DashboardView({
-  stats,
-  campaigns,
-  recentContentRequests,
-}: {
-  stats: DashboardStats;
-  campaigns: Campaign[];
-  recentContentRequests: ContentRequest[];
-}) {
+export function DashboardView() {
+  const { campaigns, contentRequests } = useMockData();
+
+  const stats = {
+    totalCampaigns: campaigns.length,
+    activeCampaigns: campaigns.filter((c) => c.status === "Active").length,
+    contentGenerated: contentRequests.filter((r) => r.status === "Completed").length,
+    pendingApprovals: contentRequests.filter((r) => r.status === "Pending").length,
+  };
+
+  const campaignsWithCounts = [...campaigns]
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, 5)
+    .map((c) => ({
+      ...c,
+      contentRequestCount: contentRequests.filter((r) => r.campaignId === c.id).length,
+    }));
+
+  const recentContentRequests = [...contentRequests]
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, 5)
+    .map((r) => ({
+      ...r,
+      campaignName: campaigns.find((c) => c.id === r.campaignId)?.name ?? "Unknown campaign",
+    }));
+
   return (
     <div className="flex flex-col gap-8">
       <div>
@@ -27,8 +46,8 @@ export function DashboardView({
       </div>
 
       <div>
-        <h2 className="mb-3 text-lg font-semibold text-zinc-900">Campaigns</h2>
-        <CampaignTable campaigns={campaigns} />
+        <h2 className="mb-3 text-lg font-semibold text-zinc-900">Recent Campaigns</h2>
+        <CampaignTable campaigns={campaignsWithCounts} />
       </div>
 
       <div>
