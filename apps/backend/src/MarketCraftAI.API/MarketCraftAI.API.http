@@ -1,0 +1,6 @@
+@MarketCraftAI.API_HostAddress = http://localhost:5255
+
+GET {{MarketCraftAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

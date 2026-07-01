@@ -1,0 +1,15 @@
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\bin\Debug\net8.0\MarketCraftAI.Application.deps.json
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\bin\Debug\net8.0\MarketCraftAI.Application.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\bin\Debug\net8.0\MarketCraftAI.Application.pdb
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\bin\Debug\net8.0\MarketCraftAI.Domain.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\bin\Debug\net8.0\MarketCraftAI.Domain.pdb
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.csproj.AssemblyReference.cache
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.AssemblyInfoInputs.cache
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.AssemblyInfo.cs
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCr.8D6F414E.Up2Date
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\refint\MarketCraftAI.Application.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\MarketCraftAI.Application.pdb
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Application\obj\Debug\net8.0\ref\MarketCraftAI.Application.dll

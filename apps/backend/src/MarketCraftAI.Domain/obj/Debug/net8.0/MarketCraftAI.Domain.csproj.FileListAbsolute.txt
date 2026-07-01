@@ -1,0 +1,11 @@
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\bin\Debug\net8.0\MarketCraftAI.Domain.deps.json
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\bin\Debug\net8.0\MarketCraftAI.Domain.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\bin\Debug\net8.0\MarketCraftAI.Domain.pdb
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.AssemblyInfoInputs.cache
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.AssemblyInfo.cs
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\refint\MarketCraftAI.Domain.dll
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\MarketCraftAI.Domain.pdb
+C:\Users\Chokanan\source\reposAI\MarketCraftAI\apps\backend\src\MarketCraftAI.Domain\obj\Debug\net8.0\ref\MarketCraftAI.Domain.dll

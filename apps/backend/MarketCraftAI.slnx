@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MarketCraftAI.API/MarketCraftAI.API.csproj" />
+    <Project Path="src/MarketCraftAI.Application/MarketCraftAI.Application.csproj" />
+    <Project Path="src/MarketCraftAI.Domain/MarketCraftAI.Domain.csproj" />
+    <Project Path="src/MarketCraftAI.Infrastructure/MarketCraftAI.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MarketCraftAI.Tests/MarketCraftAI.Tests.csproj" />
+  </Folder>
+</Solution>
